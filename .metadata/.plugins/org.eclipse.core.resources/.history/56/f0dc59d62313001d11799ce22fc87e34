@@ -1,0 +1,26 @@
+package cursolinux;
+
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+public class Curso {
+	public static void main (String[] args) {
+		
+		LocalDate d01 = LocalDate.now(); 
+		LocalDateTime d02 = LocalDateTime.now();
+		Instant d03 = Instant.now();
+		
+		LocalDate d04 = LocalDate.parse("2022-04-01");
+		LocalDateTime d05 = LocalDateTime.parse("2022-02-01T05:00");
+		Instant d06 = Instant.parse("2022-05-02T03:00Z");
+		Instant d07 = Instant.parse("2022-03-03T05:00-05:00");
+		System.out.println(d01);
+		System.out.println(d02);
+		System.out.println(d03);
+		for (int i = 0; i == 8; i++) {
+			
+		}
+		
+	}
+}

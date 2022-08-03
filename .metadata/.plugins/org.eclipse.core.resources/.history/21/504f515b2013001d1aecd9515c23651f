@@ -1,0 +1,11 @@
+package cursolinux;
+
+import java.time.LocalDate;
+
+public class Curso {
+	public static void main (String[] args) {
+		
+		LocalDate d01 = LocalDate.now(); 
+		System.out.println(d01);
+	}
+}
